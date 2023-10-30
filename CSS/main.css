@@ -89,7 +89,7 @@ a {
     object-fit: cover;
 }
 
-.grand-brand-nowbab {
+ .nexus-center {
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
@@ -102,7 +102,7 @@ a {
     transition-duration: 0.3s;
 }
 
-.grand-brand-nowbab:before {
+.nexus-center:before {
     content: "";
     position: absolute;
     z-index: -1;
@@ -124,18 +124,18 @@ a {
     transition-timing-function: ease-out;
 }
 
-.grand-brand-nowbab:hover,
-.grand-brand-nowbab:focus,
-.grand-brand-nowbab:active {
+.nexus-center:hover,
+.nexus-center:focus,
+.nexus-center:active {
     color: var(--bg-color);
 }
 
-.grand-brand-nowbab:hover:before,
-.grand-brand-nowbab:focus:before,
-.grand-brand-nowbab:active:before {
+.nexus-center:hover:before,
+.nexus-center:focus:before,
+.nexus-center:active:before {
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
-}
+} 
 
 .shutter-out-horizontal {
     display: inline-block;
